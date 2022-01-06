@@ -39,16 +39,3 @@ HTML, including a label.
 
 The classes and labels HTML are filterable using hook `reading_time_shortcode`. 
 Default is `<span class="reading-time">%s</span>`
-
-## Unrealized features
-
-* Make the label managed in the admin settings page
-* Change reading time labels HTML classes instead full labels HTML
-* Make the plugin’s admin fully translated using WordPress’ localization
-  guidelines
-* Create the following custom commands for managing the plugin using WP CLI:
-  * wp reading-time config get – Show the values of the settings
-  * wp reading-time config set CONFIG VALUE – Update the value of a setting
-  * wp reading-time clear-cache – Clear previous calculation and force recalculation for all posts
-  * wp reading-time get PID – Show the calculated reading time value for a specific post
-
